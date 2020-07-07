@@ -10,13 +10,20 @@
 /* .nav-font{
     font-weight: 400;
 } */
-
+.header1{
+    text-align: center;
+}
+.header2{
+    text-align: center;
+}
 .noel{
     background-color: gray;
     color: whitesmoke;
 }
 .main{
     color: whitesmoke;
+    text-align: center;
+    
 }
 
 @media (max-width: 1024px) {
@@ -34,16 +41,18 @@
     .detail1{
         display: block;
         position: relative;
-        width: auto;
-
+        width: auto;  
     }
     .detail2{ 
         display: flex;
         position: relative;
         margin-left: -5px;
         padding-left: 0px;
-        width: 100%;
-        
+        width: max-content;  
+    }
+    .main{
+        font-size: 16px;
+        font-weight: 400;
     }
     div img{
         height:250px ;
