@@ -1,0 +1,77 @@
+
+.logo{
+    position: absolute;
+    top: -10px;
+    font-weight: 400;
+    font-size: 25px;
+    font-family: fantasy;
+    color: grey;
+}
+/* .nav-font{
+    font-weight: 400;
+} */
+
+.noel{
+    background-color: gray;
+    color: whitesmoke;
+}
+.main{
+    color: whitesmoke;
+}
+
+@media (max-width: 1024px) {
+    .header1{
+        width: 100%;
+        font-size: 25px;
+        text-align: center;
+
+    }
+    .header2{
+        width: 100%;
+        font-size: 16px;
+        text-align: center;
+    }
+    .detail1{
+        display: block;
+        position: relative;
+        width: auto;
+
+    }
+    .detail2{ 
+        display: flex;
+        position: relative;
+        margin-left: -5px;
+        padding-left: 0px;
+        width: 100%;
+        
+    }
+    div img{
+        height:250px ;
+        width:400px ;
+    }
+ }
+
+/* header{
+    position: relative;
+    display: inline-block;
+    background-color: #5fcc71;
+    color: black;
+    width: 100%;
+}
+header ul li{
+    list-style: none;
+    float: right;
+    padding: 10px;
+}
+header ul li a button{
+    position: absolute;
+    background-color: silver;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+}
+#logo{
+    position: absolute;
+    font-size: 15px;
+    font-weight: 30p;
+} */
